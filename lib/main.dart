@@ -68,13 +68,13 @@ class _MyHomePageState extends State<MyHomePage> {
       "id": "1",
       "status": "done"
     },
-    "to": "fQtb5d-SqzI:APA91bHb9V6AN4ZK-vs0-1oca2ZNFpBbnLQqlrUiNJBc67keTz31wEqOGhXqCf71j2poU5qeTzh2v1VCw7AFh0bsouoj_eR-AqwPuvXbouZv5Uy2fhKT8phrtFIjbw5eYXleJV7uyuk5"
+    "to": ""
   };
 
   Future<void> _makeCall() async {
     final headers = {
       'content-type': 'application/json',
-      'Authorization': 'key=AAAA_m4v1ZA:APA91bEtZBgP66nlSKkfhG_B0jj2e7EOx5ECKv-z_ATHNqOnmvwVOiWZEYr-42TAE-pYJjWJVqRiogPcCiG4lwIdou-RvQV0yTJsVopAguqvHYqh_jlUzwEaKzsoWu_3io_hIdC8MZqd'
+      'Authorization': 'key='
     };
 
     final response = await http.post(postUrl,
