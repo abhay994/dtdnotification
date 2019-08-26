@@ -70,6 +70,22 @@ class _MyHomePageState extends State<MyHomePage> {
     },
     "to": ""
   };
+  
+  /* 
+  // topic 
+      final datas = {
+      "notification": {"body": text, "title": widget.pname},
+      "priority": "high",
+      "data": {
+        "click_action": "FLUTTER_NOTIFICATION_CLICK",
+        "id": "1",
+        "status": "done"
+      },
+      "to": "/topics/all"
+    };
+
+  
+  */
 
   Future<void> _makeCall() async {
     final headers = {
