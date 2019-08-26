@@ -79,7 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
       "data": {
         "click_action": "FLUTTER_NOTIFICATION_CLICK",
         "id": "1",
-        "status": "done"
+        "status": "done",
+         badge: '1', sound: 'default',
       },
       "to": "/topics/all"
     };
